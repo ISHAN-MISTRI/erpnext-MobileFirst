@@ -1,0 +1,130 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:match_name",
+ "creation": "2026-05-27 10:54:51.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "match_name",
+  "tournament",
+  "match_date",
+  "status",
+  "column_break_1",
+  "team_1",
+  "team_2",
+  "winner",
+  "section_break_2",
+  "venue",
+  "referee",
+  "column_break_2",
+  "score"
+ ],
+ "fields": [
+  {
+   "fieldname": "match_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Match Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "tournament",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Tournament",
+   "options": "Tournament",
+   "reqd": 1
+  },
+  {
+   "fieldname": "match_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Match Date"
+  },
+  {
+   "default": "Scheduled",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Scheduled\nOngoing\nCompleted\nCancelled"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "team_1",
+   "fieldtype": "Link",
+   "label": "Team 1",
+   "options": "Team",
+   "reqd": 1
+  },
+  {
+   "fieldname": "team_2",
+   "fieldtype": "Link",
+   "label": "Team 2",
+   "options": "Team",
+   "reqd": 1
+  },
+  {
+   "fieldname": "winner",
+   "fieldtype": "Link",
+   "label": "Winner",
+   "options": "Team"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break",
+   "label": "Details & Score"
+  },
+  {
+   "fieldname": "venue",
+   "fieldtype": "Data",
+   "label": "Venue"
+  },
+  {
+   "fieldname": "referee",
+   "fieldtype": "Data",
+   "label": "Referee"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "score",
+   "fieldtype": "Data",
+   "label": "Score",
+   "description": "e.g., 2-1 or 98-95"
+  }
+ ],
+ "links": [],
+ "modified": "2026-05-27 10:54:51.000000",
+ "modified_by": "Administrator",
+ "module": "Tournament Management",
+ "name": "Match",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,77 @@
+{
+ "app": "erpnext",
+ "creation": "2026-05-27 10:54:51",
+ "docstatus": 0,
+ "doctype": "Workspace Sidebar",
+ "header_icon": "trophy",
+ "idx": 0,
+ "items": [
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "home",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Home",
+   "link_to": "Tournament Management",
+   "link_type": "Workspace",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "calendar",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Tournament",
+   "link_to": "Tournament",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "users",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Team",
+   "link_to": "Team",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "award",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Match",
+   "link_to": "Match",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "user",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Player",
+   "link_to": "Player",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-05-27 11:32:19.109428",
+ "modified_by": "Administrator",
+ "module": "Tournament Management",
+ "name": "Tournament Management",
+ "owner": "Administrator",
+ "standard": 1,
+ "title": "Tournament Management"
+}

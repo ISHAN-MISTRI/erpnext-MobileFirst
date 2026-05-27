@@ -107,7 +107,7 @@ jinja = {
 # website
 webform_list_context = "erpnext.controllers.website_list_for_contact.get_webform_list_context"
 
-calendars = ["Task", "Work Order", "Sales Order", "Holiday List", "ToDo"]
+calendars = ["Task", "Work Order", "Sales Order", "Holiday List", "ToDo", "Match"]
 
 website_generators = ["BOM", "Sales Partner"]
 
@@ -686,6 +686,10 @@ global_search_doctypes = {
 		{"doctype": "Maintenance Schedule", "index": 45},
 		{"doctype": "Maintenance Visit", "index": 46},
 		{"doctype": "Warranty Claim", "index": 47},
+		{"doctype": "Tournament", "index": 48},
+		{"doctype": "Team", "index": 49},
+		{"doctype": "Match", "index": 50},
+		{"doctype": "Player", "index": 51},
 	],
 }
 

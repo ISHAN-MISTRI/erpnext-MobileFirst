@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:tournament_name",
+ "creation": "2026-05-27 10:54:51.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tournament_name",
+  "sport_type",
+  "status",
+  "column_break_1",
+  "start_date",
+  "end_date",
+  "section_break_2",
+  "venue",
+  "column_break_2",
+  "organizer"
+ ],
+ "fields": [
+  {
+   "fieldname": "tournament_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tournament Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "sport_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Sport Type",
+   "reqd": 1,
+   "options": "Soccer\nBasketball\nTennis\nCricket\nRugby\nOther"
+  },
+  {
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Draft\nUpcoming\nOngoing\nCompleted\nCancelled"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "End Date"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break",
+   "label": "Location & Organizer"
+  },
+  {
+   "fieldname": "venue",
+   "fieldtype": "Data",
+   "label": "Venue"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "organizer",
+   "fieldtype": "Data",
+   "label": "Organizer"
+  }
+ ],
+ "links": [],
+ "modified": "2026-05-27 10:54:51.000000",
+ "modified_by": "Administrator",
+ "module": "Tournament Management",
+ "name": "Tournament",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

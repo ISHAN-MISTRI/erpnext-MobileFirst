@@ -1,0 +1,113 @@
+{
+ "app": "erpnext",
+ "charts": [],
+ "content": "[{\"id\":\"shortcut_hdr\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Shortcuts</b></span>\",\"col\":12}},{\"id\":\"sh_tourn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Tournament\",\"col\":3}},{\"id\":\"sh_match\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Match\",\"col\":3}},{\"id\":\"sh_team\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create Team\",\"col\":3}},{\"id\":\"sh_play\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add Player\",\"col\":3}},{\"id\":\"spacer_1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"masters_hdr\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Masters &amp; Schedules</b></span>\",\"col\":12}},{\"id\":\"card_tourn_teams\",\"type\":\"card\",\"data\":{\"card_name\":\"Tournaments &amp; Teams\",\"col\":6}},{\"id\":\"card_matches_players\",\"type\":\"card\",\"data\":{\"card_name\":\"Matches &amp; Players\",\"col\":6}}]",
+ "creation": "2026-05-27 10:54:51.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "trophy",
+ "idx": 1,
+ "is_hidden": 0,
+ "label": "Tournament Management",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tournaments & Teams",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tournament",
+   "link_count": 0,
+   "link_to": "Tournament",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Team",
+   "link_count": 0,
+   "link_to": "Team",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Matches & Players",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Match",
+   "link_count": 0,
+   "link_to": "Match",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Player",
+   "link_count": 0,
+   "link_to": "Player",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-05-27 10:54:51.000000",
+ "modified_by": "Administrator",
+ "module": "Tournament Management",
+ "name": "Tournament Management",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 12.0,
+ "shortcuts": [
+  {
+   "label": "New Tournament",
+   "link_to": "Tournament",
+   "type": "DocType"
+  },
+  {
+   "label": "New Match",
+   "link_to": "Match",
+   "type": "DocType"
+  },
+  {
+   "label": "Create Team",
+   "link_to": "Team",
+   "type": "DocType"
+  },
+  {
+   "label": "Add Player",
+   "link_to": "Player",
+   "type": "DocType"
+  }
+ ],
+ "title": "Tournament Management",
+ "type": "Workspace"
+}
